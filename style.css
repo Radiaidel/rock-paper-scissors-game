@@ -23,14 +23,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .hand{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 120px;
+    height: ;
 }
 .rectangle{
     background-color: #A335FF;
-    width: 5%;
-    height: 80px;
+    width: 7%;
+    height: 250px;
+    border-radius: 0 15px 15px 0;
 }
