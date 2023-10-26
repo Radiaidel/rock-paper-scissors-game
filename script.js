@@ -23,4 +23,3 @@ let scoreR = 0;
 let name = document.getElementById("pseudo-name");
 
 const hand1 = document.querySelector(".finger1");
-hand1.appendChild()
