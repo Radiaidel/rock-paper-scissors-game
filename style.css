@@ -19,3 +19,18 @@ body{
     text-shadow: 10px 8px 3px rgba(251, 234, 64, 0.70);
     letter-spacing: 10px;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hand{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.rectangle{
+    background-color: #A335FF;
+    width: 5%;
+    height: 80px;
+}
