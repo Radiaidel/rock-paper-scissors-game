@@ -20,6 +20,14 @@ const pHands = [
 ];
 let scoreP = 0;
 let scoreR = 0;
-let name = document.getElementById("pseudo-name");
+
+let name = "";
+let submit = document.getElementById("btnplay");
+
+submit.addEventListener("click",()=>{
+    name = document.getElementById("pseudo-name").value;
+    document.getElementById("pseudo-name").value = "";
+})
+
 
 const hand1 = document.querySelector(".finger1");
